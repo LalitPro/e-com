@@ -1,0 +1,78 @@
+#searchInput{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border:3px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+#searchInput:focus{
+    font-weight: bold;
+}
+#searchInput:hover{
+    background-color: whitesmoke;
+}
+#searchBar button{
+    font-size: 30px;
+    border:3px solid rgb(255, 210, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 210, 0);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+#searchBar button:hover{
+    font-size: 30px;
+    border:3px solid rgb(255, 210, 0);
+    background-color: white;
+    color: rgb(255, 210, 0);
+}
+#searchBar img{
+    display: inline-block;
+    height: 25px;
+}
+#header{
+    background: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+#header div{
+    margin: 0 25px;
+}
+
+.sqr{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    max-width: 375px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color:black;
+
+}
+.sqr img{
+    height: 300px;
+    max-width: 375px;
+}
+p{
+    margin-top: 0;
+    font-size: 15px;
+    color: gray;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
